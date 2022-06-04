@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.pt{
+    padding-top: 10px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -258,3 +262,4 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
