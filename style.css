@@ -263,3 +263,25 @@ body {
     color: var(--secondary-text-color);
 }
 
+.timeline-container{
+    flex: 1 1 25%;
+    padding: 4px;
+    align-items: center;
+    min-width: 0;
+    /* overflow-wrap: break-word; */
+    word-break:break-all;
+}
+.vl {
+    border-left: 6px solid var(--border-color);
+    height: 100%;
+    position: static;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+  .ow {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    padding: 5px;
+  }
